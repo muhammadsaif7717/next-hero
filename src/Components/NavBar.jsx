@@ -52,7 +52,7 @@ const NavBar = () => {
         </h6>
         <ul className="flex justify-between items-center gap-5">
           {links.map((link) => (
-            <li key={link.path0}>
+            <li key={link.title}>
               <Link
                 className={`${pathName === link.path && "text-cyan-300"} `}
                 href={link.path}
